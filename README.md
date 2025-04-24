@@ -2,7 +2,7 @@
 
 A powerful Chrome extension that provides AI assistance directly in your browser. TypePilot allows users to interact with various AI models including Gemini 2.5 Pro, GPT-4, and Claude through any of there browser tabs.
 
-![TypePilot Logo](icon/logo.png)
+![TypePilot Logo](icons/logo.png)
 
 ## Features
 
