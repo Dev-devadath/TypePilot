@@ -8,9 +8,6 @@ A powerful Chrome extension that provides AI assistance directly in your browser
 
 - **Multiple AI Model Support**: Choose between Gemini 2.5 Pro, GPT-4, Claude, or add your own custom model
 - **Custom Command Keyword**: Personalize your trigger keyword for AI assistance (default: "help:")
-- **User Authentication**: Secure login and registration system
-- **Free and Premium Plans**: Different subscription tiers with varying features
-- **Credits System**: Track and manage your usage with the built-in credits system
 - **Privacy-Focused**: API keys are stored only in your browser and never sent to our servers
 
 ## How It Works
@@ -66,9 +63,6 @@ The extension is built using:
 - Chrome Extension APIs
 - Supabase for backend authentication and data storage
 
-## Web Application
-
-A companion web application is available for account management, subscription upgrades, and purchasing additional credits. The web app can be accessed at `http://localhost:3001` during development.
 
 ## Security
 
@@ -88,4 +82,4 @@ MIT License
 
 ## Contact
 
-- GitHub: [https://github.com/dev-devadath](https://github.com/dev-devadath)
+- Page: https://devadath.co
