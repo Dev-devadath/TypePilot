@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "TypePilot",
+  "version": "1.0",
+  "description": "An AI assistant that helps you with text input across the web",
+  "permissions": ["storage", "activeTab", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/logo.png",
+      "48": "icons/logo.png",
+      "128": "icons/logo.png"
+    }
+  },
+  "icons": {
+    "16": "icons/logo.png",
+    "48": "icons/logo.png",
+    "128": "icons/logo.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [".env"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
