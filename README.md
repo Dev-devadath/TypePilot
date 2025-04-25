@@ -83,3 +83,6 @@ MIT License
 ## Contact
 
 - Page: https://devadath.co
+
+## For Firefox users go to:
+ [TypePilot (Firefox)](https://github.com/neumaz66/TypePilotFirefox)
